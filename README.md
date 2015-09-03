@@ -4,7 +4,8 @@ Sync Saver Webpack Plugin
 [![Dependency Status](https://david-dm.org/kirillsud/sync-saver-webpack-plugin.svg)](https://david-dm.org/kirillsud/sync-saver-webpack-plugin)
 [![bitHound Score](https://www.bithound.io/github/kirillsud/sync-saver-webpack-plugin/badges/score.svg)](https://www.bithound.io/github/kirillsud/sync-saver-webpack-plugin)
 
-This is a [webpack](http://webpack.github.io/) plugin that makes synchronous saving of generated assets. 
+This is a [webpack](http://webpack.github.io/) plugin that makes synchronous saving of generated assets.
+This plugin will be usefull for builds on Windows, when you use generated assets in future build steps.
 Tehnicaly plugin just replaces origin outputFileSystem.writeFile method by fs.writeFileSync.
 
 Installation
