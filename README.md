@@ -1,4 +1,4 @@
-HTML Webpack Plugin
+Sync Saver Webpack Plugin
 =================== 
 [![npm version](https://badge.fury.io/js/sync-saver-webpack-plugin.svg)](http://badge.fury.io/js/sync-saver-webpack-plugin)
 [![Dependency Status](https://david-dm.org/kirillsud/sync-saver-webpack-plugin.svg)](https://david-dm.org/kirillsud/sync-saver-webpack-plugin)
@@ -28,7 +28,7 @@ var webpackConfig = {
     path: 'dist',
     filename: 'index_bundle.js'
   },
-  plugins: [new SuncSaverWebpackPlugin()]
+  plugins: [new SyncSaverWebpackPlugin()]
 }
 ```
 
