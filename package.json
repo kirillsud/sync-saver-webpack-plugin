@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/kirillsud/sync-saver-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/kirillsud/sync-saver-webpack-plugin"
+  "homepage": "https://github.com/kirillsud/sync-saver-webpack-plugin",
+  "dependencies": {
+    "fs": "0.0.2"
+  }
 }
