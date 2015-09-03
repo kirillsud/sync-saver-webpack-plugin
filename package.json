@@ -1,6 +1,6 @@
 {
   "name": "sync-saver-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Replaces origin outputFileSystem.writeFile method by fs.writeFileSync method",
   "main": "index.js",
   "scripts": {
